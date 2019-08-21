@@ -11,11 +11,13 @@ public class Validation {
 	public static void main(String[] args) {
 		
 		Random randomMaker = new Random();
+		for (int i = 0; i < 10; i++) {
+			
 		
-		int randomNumber = randomMaker.nextInt(5);
+		int randomNumber = randomMaker.nextInt(10);
 		
 		System.out.println(randomNumber);
-
+		}
 		// 1. Use each value of randomNumber to give the user a random compliment.
 
 		// 2. Repeat all the code above 10 times
