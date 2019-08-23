@@ -16,10 +16,13 @@ import javax.swing.JOptionPane;
 public class AnimalFarm {
 
 	AnimalFarm() {
-		/*
-		 * 1. Ask the user which animal they want, then play the sound of that animal.
-		 */
 		
+		 // 1. Ask the user which animal they want, then play the sound of that animal.
+		for (int i = 0; i < 10000000; i++) {
+			
+		
+		JOptionPane.showInputDialog("which animal sound do u want to play?\nquack, moo, woof, meow, llama");
+		}
 		/* 2. Make it so that the user can keep entering new animals. */
 	}
 

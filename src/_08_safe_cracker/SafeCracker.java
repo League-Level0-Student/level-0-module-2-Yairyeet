@@ -22,8 +22,13 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */
+		JOptionPane.showInputDialog("what is the code");
 		
-
+		if(wekncrzpasfdkjhcfjse==wekncrzpasfdkjhcfjse) {
+			JOptionPane.showMessageDialog(null,"9999999");
+		}else {
+			JOptionPane.showMessageDialog(null,"no");
+		}
 	}
 
 	static void tryCode(int guess) {
